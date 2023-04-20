@@ -1,0 +1,38 @@
+.folder-btn {
+    background-color: antiquewhite;
+    height: 30px;
+    width: 120px;
+    border: 1px solid black;
+    position: relative;
+    -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.folder-btn:hover {
+    background-color: #ebddcb;
+    cursor: pointer;
+}
+
+.folder-btn:active {
+	/* background: #2980b9; */
+	top: 2px;
+}
+
+/* .folder-btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.folder-btn:before {
+    position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+	line-height: 3;
+	font-size: 140%;
+} */
